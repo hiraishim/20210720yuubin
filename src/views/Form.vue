@@ -12,23 +12,20 @@ export default {
   props:["zipcode"],
   data() {
     return {
-      zipcode: '',
+      zip: '',
       address: '',
     };
   },
+
   methods: {
     async created() {
-      const item = await axios.get(
-        https://apis.postcode-jp.com/api/v4/postcodes/string?string
-      )
-      then.((response)=>{
-        this.address =""})
-      })
+      axios.get(
+        "https://apis.postcode-jp.com/api/v4/postcodes/string?string"
+      ).
+      then((response)=>console.log(response));
+    },
     }
-  
-
-</script>
-<style scoped>
-.form{
-  width
 }
+</script>
+
+
