@@ -2,7 +2,7 @@
 <div class ="form">
   <input type ="text" v-model="zipCode"  placeholder="000-0000"/>
   <button @click="searchAddress">住所自動入力</button>
-  <input type ="text" v-model="address" />
+ 
   </div>
 </template>
 

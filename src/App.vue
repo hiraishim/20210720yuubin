@@ -1,10 +1,14 @@
 <template>
   <div id="app">
-    </div>
     <router-view/>
   </div>
 </template>
 
-<style>
-
-</style>
+<script>
+import Form from "./views/Form";
+export default {
+  views:{
+    Form
+  }
+};
+</script>
