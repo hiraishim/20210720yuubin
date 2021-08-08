@@ -6,15 +6,15 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/',
-    name: 'Form',
-    component: Form
+    path: "/",
+    name: "Form",
+    component: Form,
   },
-]
+];
 const router = new VueRouter({
-  mode: 'history',
+  mode: "history",
   base: process.env.BASE_URL,
-  routes
+  routes,
 });
 
 export default router;
