@@ -18,7 +18,7 @@ export default {
   },
 
   methods: {
-    searchAddressInfo() {
+    searchAddress() {
       let url =
         "https://apis.postcode-jp.com/api/v3/postcodes/" +
         this.zipCode +
